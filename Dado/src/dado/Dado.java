@@ -33,7 +33,4 @@ public class Dado {
      return (int)(Math.random()*6)+1;
     }
     
-    public void mostrarDado(){
-    System.out.println(this.lanzarDado()+"El numero es:");
-    }
 }
